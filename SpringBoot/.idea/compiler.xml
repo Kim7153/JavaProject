@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-06-security" />
+        <module name="springboot-03-web" />
+        <module name="springboot-01-helloworld" />
+        <module name="blog" />
+        <module name="demo" />
+        <module name="provider-server" />
+        <module name="example" />
+        <module name="springboot-10-mailtest" />
+        <module name="springboot-05-mybatis" />
+        <module name="consumer-server" />
+        <module name="kaoshi" />
+        <module name="springboot-08-swagger" />
+        <module name="springboot-02-config" />
+        <module name="springboot-04-data" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-07-shiro" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blog" options="-parameters" />
+      <module name="example" options="-parameters" />
+      <module name="springboot-01-helloworld" options="-parameters" />
+      <module name="springboot-02-config" options="-parameters" />
+      <module name="springboot-03-web" options="-parameters" />
+    </option>
+  </component>
+</project>

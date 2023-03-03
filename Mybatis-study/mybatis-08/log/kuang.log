@@ -1,0 +1,601 @@
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 477289012.
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==>  Preparing: insert into blog(id,title,create_time,views) values (?,?,?,?)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==> Parameters: 3055f78a86ef4d1cba066f9b1e076154(String), Mybatis如此简单(String), 2021-04-26 11:31:58.728(Timestamp), 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]<==    Updates: 1
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==>  Preparing: insert into blog(id,title,create_time,views) values (?,?,?,?)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==> Parameters: 60df73113c60420b9a0ef60ba004501f(String), Java如此简单(String), 2021-04-26 11:31:58.728(Timestamp), 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]<==    Updates: 1
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==>  Preparing: insert into blog(id,title,create_time,views) values (?,?,?,?)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==> Parameters: f79719cba1f4410bac8496ad091ad81a(String), Spring如此简单(String), 2021-04-26 11:31:58.728(Timestamp), 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]<==    Updates: 1
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==>  Preparing: insert into blog(id,title,create_time,views) values (?,?,?,?)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==> Parameters: 6858211d956a4c3fbc2183519e727742(String), 微服务如此简单(String), 2021-04-26 11:31:58.728(Timestamp), 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]<==    Updates: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1c72da34]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 477289012 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 905735620.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog and views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer)
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2011482127.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog and views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer)
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2011482127.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog and views like ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer)
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2011482127.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog where 1=1 and views like ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer)
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1786364562.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1786364562.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 477289012.
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==>  Preparing: insert into blog(id,title,create_time,views) values (?,?,?,?)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==> Parameters: f5208ff41127451f95c0dec0651920a9(String), Mybatis如此简单(String), 2021-04-26 14:23:02.186(Timestamp), 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]<==    Updates: 1
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==>  Preparing: insert into blog(id,title,create_time,views) values (?,?,?,?)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==> Parameters: 33e5cf592a044ce0b2725ecbbb9c3cfc(String), Java如此简单(String), 2021-04-26 14:23:02.186(Timestamp), 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]<==    Updates: 1
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==>  Preparing: insert into blog(id,title,create_time,views) values (?,?,?,?)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==> Parameters: ff121cae550840eb965a5b893e3d33fc(String), Spring如此简单(String), 2021-04-26 14:23:02.186(Timestamp), 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]<==    Updates: 1
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==>  Preparing: insert into blog(id,title,create_time,views) values (?,?,?,?)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]==> Parameters: 60ed6f7e131d48ebb9b16e46108c940e(String), 微服务如此简单(String), 2021-04-26 14:23:02.186(Timestamp), 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.addBlog]<==    Updates: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1c72da34]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 477289012 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1786364562.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 905735620.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog where 1=1 and views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 1000(Integer)
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 577405636.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog where 1=1 and views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 1000(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]<==      Total: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@226a82c4]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 577405636 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 577405636.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog where 1=1 and views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]<==      Total: 7
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@226a82c4]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 577405636 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 577405636.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog and views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer)
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 577405636.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog where 1=1 and views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]<==      Total: 7
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@226a82c4]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 577405636 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 577405636.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog and views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer)
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 577405636.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog where 1=1 and views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]<==      Total: 7
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@226a82c4]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 577405636 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2145970759.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog where 1=1 and views = ? and title = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer), Java如此简单(String)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]<==      Total: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7fe8ea47]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 2145970759 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 577405636.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog where 1=1
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]<==      Total: 8
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@226a82c4]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 577405636 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 2145970759.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog where 1=1 and views = ? and title = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer), Java如此简单(String)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]<==      Total: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7fe8ea47]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 2145970759 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 577405636.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog where 1=1 and views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]<==      Total: 7
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@226a82c4]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 577405636 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 577405636.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog where views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]<==      Total: 7
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@226a82c4]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 577405636 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 459848100.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog WHERE views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]<==      Total: 7
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1b68b9a4]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 459848100 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 459848100.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog WHERE title = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: Java如此简单(String)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]<==      Total: 2
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1b68b9a4]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 459848100 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1691538257.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==>  Preparing: select * from blog WHERE views = ? and title = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]==> Parameters: 9999(Integer), Java如此简单(String)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllIf]<==      Total: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@64d2d351]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1691538257 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 992768706.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllChoose]==>  Preparing: select * from blog WHERE id = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllChoose]==> Parameters: 3055f78a86ef4d1cba066f9b1e076154(String)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllChoose]<==      Total: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b2c72c2]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 992768706 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1335505684.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllChoose]==>  Preparing: select * from blog WHERE views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllChoose]==> Parameters: 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllChoose]<==      Total: 7
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4f9a3314]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1335505684 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1335505684.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllChoose]==>  Preparing: select * from blog WHERE /* */ views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllChoose]==> Parameters: 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllChoose]<==      Total: 7
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4f9a3314]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1335505684 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1335505684.
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllChoose]==>  Preparing: select * from blog WHERE views = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllChoose]==> Parameters: 9999(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.getBlogAllChoose]<==      Total: 7
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4f9a3314]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1335505684 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 626742236.
+[p][21-04-26][com.kuang.dao.BlogMapper.updateBlog]==>  Preparing: update blog SET title = ? where id = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.updateBlog]==> Parameters: Java如此简单2(String), 60df73113c60420b9a0ef60ba004501f(String)
+[p][21-04-26][com.kuang.dao.BlogMapper.updateBlog]<==    Updates: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@255b53dc]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 626742236 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1931444790.
+[p][21-04-26][com.kuang.dao.BlogMapper.updateBlog]==>  Preparing: update blog SET title = ? views = ? where id = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.updateBlog]==> Parameters: Java如此简单2(String), 5555(Integer), 60df73113c60420b9a0ef60ba004501f(String)
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1931444790.
+[p][21-04-26][com.kuang.dao.BlogMapper.updateBlog]==>  Preparing: update blog SET title = ?, views = ? where id = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.updateBlog]==> Parameters: Java如此简单2(String), 5555(Integer), 60df73113c60420b9a0ef60ba004501f(String)
+[p][21-04-26][com.kuang.dao.BlogMapper.updateBlog]<==    Updates: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@731f8236]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1931444790 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 901205084.
+[p][21-04-26][com.kuang.dao.BlogMapper.updateBlog]==>  Preparing: update blog SET title = ?, views = ? where id = ?
+[p][21-04-26][com.kuang.dao.BlogMapper.updateBlog]==> Parameters: Java如此简单2(String), 5555(Integer), 60df73113c60420b9a0ef60ba004501f(String)
+[p][21-04-26][com.kuang.dao.BlogMapper.updateBlog]<==    Updates: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@35b74c5c]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 901205084 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1800659519.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: 
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]<==      Total: 4
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6b53e23f]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1800659519 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1335505684.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE and( id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: 1(Integer)
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1335505684.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE and( id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: 1(String)
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1335505684.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE and( id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: 1(Integer)
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1335505684.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE ( id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: 1(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]<==      Total: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4f9a3314]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1335505684 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 992768706.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE ( id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: null
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]<==      Total: 0
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b2c72c2]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 992768706 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1335505684.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE ( id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: 1(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]<==      Total: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4f9a3314]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1335505684 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 992768706.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE ( id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: null
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]<==      Total: 0
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b2c72c2]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 992768706 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 992768706.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE ( id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: 1(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]<==      Total: 1
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b2c72c2]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 992768706 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 992768706.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE ( id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: null
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]<==      Total: 0
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b2c72c2]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 992768706 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 992768706.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE ( id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: null
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]<==      Total: 0
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b2c72c2]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 992768706 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1335505684.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE ( id = ? id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: 1(Integer), 2(Integer)
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1335505684.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE ( id = ? or id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: 1(Integer), 2(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]<==      Total: 2
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4f9a3314]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1335505684 to pool.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1335505684.
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==>  Preparing: select * from blog WHERE ( id = ? or id = ? )
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]==> Parameters: 1(Integer), 2(Integer)
+[p][21-04-26][com.kuang.dao.BlogMapper.queryBlogForeach]<==      Total: 2
+[p][21-04-26][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4f9a3314]
+[p][21-04-26][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1335505684 to pool.

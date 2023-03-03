@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--注册bean-->
+    <!--<bean id="afterLog" class="com.kuang.log.AfterLog"/>
+    <bean id="beforeLog" class="com.kuang.log.BeforeLog"/>-->
+    <bean id="userService" class="com.kuang.service.UserServiceImpl"/>
+    <!--<bean id="diy" class="com.kuang.diy.DiyAdvice"/>-->
+    <!--<bean id="annotationPointCut" class="com.kuang.diy.AnnotationPointCut"/>-->
+
+    <!--第一种方式-->
+    <!--aop的配置-->
+<!--    <aop:config>
+        &lt;!&ndash;切入点 expression：表式匹配要执行的方法&ndash;&gt;
+        &lt;!&ndash;
+            第一个 * 符号	表示返回值的类型任意;
+            com.kuang.service  AOP所切的服务的包名，即，我们的业务部分
+            com.kuang.service.UserServiceImpl 包名下面的UserServiceImpl类
+            com.kuang.service.UserServiceImpl.* 包名下面的UserServiceImpl类的所有方法
+            com.kuang.service.UserServiceImpl.*(..) 括号表示参数，两个点表示任何参数类型
+        &ndash;&gt;
+        <aop:pointcut id="pointcut" expression="execution(* com.kuang.service.UserServiceImpl.*(..))"/>
+        <aop:advisor advice-ref="beforeLog" pointcut-ref="pointcut"/>
+        <aop:advisor advice-ref="afterLog" pointcut-ref="pointcut"/>
+    </aop:config>-->
+
+    <!--第二种方式-->
+<!--    <aop:config>-->
+<!--        <aop:aspect ref="diy">-->
+<!--            <aop:pointcut id="diyPonitcut" expression="execution(* com.kuang.service.UserServiceImpl.*(..)))"/>-->
+<!--            <aop:before method="before" pointcut-ref="diyPonitcut"/>-->
+<!--            <aop:after method="after" pointcut-ref="diyPonitcut"/>-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+
+    <!--第三种方式-->
+    <!--开启aop注解开关-->
+    <aop:aspectj-autoproxy/>
+    <context:annotation-config/>
+    <context:component-scan base-package="com.kuang"/>
+</beans>

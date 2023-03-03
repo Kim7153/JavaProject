@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+</head>
+<body>
+<form action="#" method="post" onsubmit="return yanzheng()">
+    <p>
+        <span>用户名：</span><input type="text" id="username" name="username">
+    </p>
+    <p>
+        <span>密码：</span><input type="password" id="password">
+    </p>
+    <input type="submit" value="提交">
+    <input type="hidden" id="md5-password" name="password">
+    <script>
+        function yanzheng() {
+            let username = document.getElementById('username');
+            let password = document.getElementById('password');
+            let md5_password = document.getElementById('md5-password');
+            md5_password.value = md5(password.value);
+            return true;
+        }
+    </script>
+
+</form>
+</body>
+</html>

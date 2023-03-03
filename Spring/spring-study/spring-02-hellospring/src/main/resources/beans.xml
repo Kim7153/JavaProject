@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+
+        id的值随便起  相当于变量名   class就是类的名称 写全路径
+        类名 变量名 =  new 类名():
+        原本的规则：
+            Hello hello = new Hello():
+        现在的规则
+            id = "hello" class = "Hello"
+        属性标签 property    name = 属性  value 值  给name赋value值
+    -->
+    <bean id="hello" class="com.kuang.pojo.Hello">
+        <property name="str" value="ppp"/>
+    </bean>
+</beans>

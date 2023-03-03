@@ -1,0 +1,6 @@
+创建用户数据库
+    create table users(
+      _id int primary key auto_increment,
+      username varchar(255),
+      money varchar(255)
+      );

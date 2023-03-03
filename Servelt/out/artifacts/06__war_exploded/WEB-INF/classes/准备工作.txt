@@ -1,0 +1,25 @@
+任务:在线开始管理系统---用户信息管理模块
+
+子任务:
+        用户信息注册
+        用户信息查询
+        用户信息删除
+        用户信息更新
+
+准备工作:
+
+    1、创建用户信息表 User.frm
+    drop table if exists users;
+    create table users(
+        userId int primary key auto_increment, #用户编号
+        userName varchar(50) not null,   #用户名称
+        passWord varchar(50) not null,   #用户密码
+        sex      char(1) not null,       #用户性别 '男' 或者 '女'
+        email    varchar(50) not null    #用户邮箱
+    );
+
+    2、在src下 com.bjpowernode.entity.Users 实体类
+        实体类描述的是表中的结构
+
+    3、在src下，com.bipowernode.util.JdbcUtil工具类【复用】
+

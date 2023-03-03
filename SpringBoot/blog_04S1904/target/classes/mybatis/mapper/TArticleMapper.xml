@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.blog.jxhj.mapper.TArticleMapper">
+    <!--查询所有-->
+    <select id="queryAll" resultMap="articleWithComment">
+        select a.*,c.id c_id,c.content c_content,c.author
+        from springbootdata.t_article a left join springbootdata.t_comment c on a.id=c.id
+    </select>
+    <!--添加书籍-->
+    <insert id="addTArticle">
+        insert into springbootdata.t_article(title, content,intro,createTime) values (#{title},#{content},#{intro},#{createTime})
+    </insert>
+    <!--修改书籍-->
+    <update id="updateTArticle">
+        update springbootdata.t_article set title=#{title},content=#{content} where id=#{id}
+    </update>
+    <!--删除书籍-->
+    <delete id="deleteTArticle">
+        delete from springbootdata.t_article where id=#{id}
+    </delete>
+    <!--分页查询-->
+    <resultMap id="articleWithComment" type="com.blog.jxhj.pojo.TArticle">
+        <id column="id" property="id"/>
+        <result property="title" column="title"/>
+        <result property="content" column="content"/>
+        <result property="intro" column="intro"/>
+        <result property="createTime" column="createTime"/>
+        <collection property="commentList" ofType="com.blog.jxhj.pojo.TComment">
+            <id property="id" column="c_id"/>
+            <result property="content" column="content"/>
+            <result property="author" column="author"/>
+        </collection>
+    </resultMap>
+    <select id="selectByPage" resultMap="articleWithComment">
+        select a.*,c.id c_id,c.content c_content,c.author
+        from springbootdata.t_article a left join springbootdata.t_comment c on a.id=c.id
+        <where>
+            <if test="article.id != null">
+                and a.id = #{article.id}
+            </if>
+            <if test="article.title != null">
+                and a.title like #{article.title}
+            </if>
+        </where>
+        limit #{page},#{pageSize}
+    </select>
+    <!--根据id查询详细-->
+    <select id="selectById" resultMap="articleWithComment">
+        select a.*,c.id c_id,c.content c_content,c.author
+        from springbootdata.t_article a,springbootdata.t_comment c
+        where a.id=c.a_id and a.id=#{id}
+    </select>
+
+</mapper>

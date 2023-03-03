@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lyl.example.mapper.UserMapper">
+    <select id="selectAll" resultType="user">
+        select * from springbootdata.user
+    </select>
+
+    <select id="selectById" resultType="user">
+        select * from springbootdata.user where id = #{id}
+    </select>
+
+    <insert id="addUser">
+        insert into springbootdata.user(name, age, sal)  values (#{name},#{age},#{sal})
+    </insert>
+    <delete id="deleteUsrById">
+        delete from springbootdata.user where id=#{id}
+    </delete>
+    <update id="updateUser">
+        update springbootdata.user set name=#{name},sal=#{sal},age=#{age} where id=#{id}
+    </update>
+</mapper>

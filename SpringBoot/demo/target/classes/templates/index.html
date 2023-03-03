@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-base64@3.6.0/base64.min.js"></script>
+<script language="JavaScript">
+    function kkFileView() {
+        var url = 'http://127.0.0.1:8080/file:///D:/upLoad/kkk.docx'; //要预览文件的访问地址
+        window.open('http://127.0.0.1:8012/onlinePreview?url='+encodeURIComponent(Base64.encode(url)));
+    }
+</script>
+<form th:action="@{/file/upload}" method="post" enctype="multipart/form-data">
+<!--    <input type="file" name="files" multiple="multiple"/><p>-->
+
+    <input type="file" name="files"/><p>
+    <input type="file" name="files"/><p>
+    <input type="file" name="files"/><p>
+    <input type="submit" value="提交" /><p>
+    <input type="reset" value="清空" /><p>
+</form>
+<button onclick="kkFileView()">在线预览</button>
+</body>
+</html>

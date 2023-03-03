@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0f814a3-e96d-4386-9eb2-ba52b115583e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lVEjL6fG1XE8KLcgAua7RUyrUz" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysql-connector-java-5.1.26.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\jdbc\jdbc_test\src" />
+      <recent name="D:\JavaProject\jdbc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.jdbcTest06">
+    <configuration name="jdbcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbcTest" />
+      <module name="jdbc_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jdbcTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbcTest03" />
+      <module name="jdbc_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jdbcTest05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbcTest05" />
+      <module name="jdbc_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jdbcTest06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbcTest06" />
+      <module name="jdbc_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jdbctest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbctest04" />
+      <module name="jdbc_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.jdbcTest06" />
+        <item itemvalue="Application.jdbcTest05" />
+        <item itemvalue="Application.jdbcTest" />
+        <item itemvalue="Application.jdbctest04" />
+        <item itemvalue="Application.jdbcTest03" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0f814a3-e96d-4386-9eb2-ba52b115583e" name="Default Changelist" comment="" />
+      <created>1607673991241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607673991241</updated>
+      <workItem from="1607673994313" duration="1491000" />
+      <workItem from="1607752674143" duration="15159000" />
+      <workItem from="1607782856517" duration="815000" />
+      <workItem from="1607850462850" duration="10008000" />
+      <workItem from="1607910840869" duration="3674000" />
+      <workItem from="1607951537406" duration="6403000" />
+      <workItem from="1607994988319" duration="5557000" />
+      <workItem from="1608035497443" duration="946000" />
+      <workItem from="1608098055803" duration="22000" />
+      <workItem from="1608108454709" duration="1334000" />
+      <workItem from="1608636285463" duration="1724000" />
+      <workItem from="1608641561251" duration="421000" />
+      <workItem from="1608644361241" duration="21000" />
+      <workItem from="1608707812697" duration="1074000" />
+      <workItem from="1611831483564" duration="32000" />
+      <workItem from="1611831686377" duration="100000" />
+      <workItem from="1615199923810" duration="301000" />
+      <workItem from="1615200319271" duration="21000" />
+      <workItem from="1616504578760" duration="211000" />
+      <workItem from="1616566534468" duration="1471000" />
+      <workItem from="1616631923968" duration="8393000" />
+      <workItem from="1617016806819" duration="1180000" />
+      <workItem from="1618211703459" duration="45000" />
+      <workItem from="1618645865720" duration="190000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="841" y="202" key="#Project_Structure" timestamp="1616635314875">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="841" y="202" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1616635314875" />
+    <state width="818" height="192" key="GridCell.Tab.0.bottom" timestamp="1616644337363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="818" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616644337363" />
+    <state width="818" height="192" key="GridCell.Tab.0.center" timestamp="1616644337363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="818" height="192" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616644337363" />
+    <state width="818" height="192" key="GridCell.Tab.0.left" timestamp="1616644337363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="818" height="192" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616644337363" />
+    <state width="818" height="192" key="GridCell.Tab.0.right" timestamp="1616644337363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="818" height="192" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616644337363" />
+    <state width="883" height="340" key="GridCell.Tab.1.bottom" timestamp="1608109789782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="883" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608109789782" />
+    <state width="883" height="340" key="GridCell.Tab.1.center" timestamp="1608109789782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="883" height="340" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608109789782" />
+    <state width="883" height="340" key="GridCell.Tab.1.left" timestamp="1608109789782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="883" height="340" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608109789782" />
+    <state width="883" height="340" key="GridCell.Tab.1.right" timestamp="1608109789782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="883" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608109789782" />
+    <state x="790" y="189" key="SettingsEditor" timestamp="1616636460992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616636460992" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1616635750191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616635750191" />
+  </component>
+</project>

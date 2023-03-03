@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="lib/jquery-3.6.0.js"></script>
+    <style>
+        #divMove{
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+mouse:<span id="mouseMove"></span>
+<p>在这里移动试试</p>
+<span><button id="button">显示/隐藏</button></span>
+<div id="divMove"></div>
+<script>
+    $(function () {
+        $('#divMove').mousemove(function (e) {
+            $('#mouseMove').text('x:'+e.pageX + 'y:'+e.pageY);
+        })
+    });
+    $("button").mousedown(function(){
+        $("p").slideToggle();
+    });
+</script>
+
+</body>
+</html>

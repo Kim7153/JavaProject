@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--第一种 通过下标来使用有参构造-->
+    <!--    <bean id="user" class="com.kuang.pojo.User">
+            <constructor-arg index="0" value="lyl"/>
+        </bean>-->
+    <!--第二种 通过类型来赋值-->
+    <!--    <bean id="user" class="com.kuang.pojo.User">
+            <constructor-arg type="java.lang.String" value="lyl2"/>
+        </bean>-->
+    <!--通过属性名直接赋值-->
+    <!--
+       id 是bean的标识符,要唯一,如果没有配置id,name就是默认标识符
+       如果配置id,又配置了name,那么name是别名
+       name可以设置多个别名,可以用逗号,分号,空格隔开
+       如果不配置id和name,可以根据applicationContext.getBean(.class)获取对象;
+
+        class是bean的全限定名=包名+类名
+    -->
+    <bean id="user" class="com.kuang.pojo.User" name="user2,user3">
+        <constructor-arg name="userName" value="lyl3"/>
+    </bean>
+
+    <!--别名-->
+    <!--<alias name="user" alias="user2"/>-->
+</beans>

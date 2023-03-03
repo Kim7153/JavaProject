@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    'use strict'
+    /*放一个学生的名字和对应的学生的成绩
+    * var name = ['tom','jack','hack']
+    * var score = [100,90,80]
+    * */
+/*    var map = new Map([['tom',100],['jack',90],['hack',80]]);
+    let tom = map.get('tom');
+    map.set('admin',123456);
+    map.delete('tom');
+    console.log(tom);
+    console.log(map);
+
+    for (let mapElement of map) {
+        console.log(mapElement);
+    }*/
+
+    /*set 无需不重复*/
+/*    var set = new Set([3,1,1,1,1]);
+    set.add(2);
+    set.delete(1);
+    console.log(set)
+    console.log(set.has(3));//true
+    for (let number of set) {
+        console.log(number);
+    }*/
+/*    function f(a,b,...rest) {
+        console.log(a);
+        console.log(b);
+        console.log(rest);
+        for (let restElement of rest) {
+            console.log(restElement);
+        }
+    }*/
+
+/*        var kuangshen = {
+            name: '十四',
+            birth: 2000,
+            age: function () {
+                var now = new Date().getFullYear();
+                return now-this.birth;
+            }
+        }*/
+/*    var person = {
+        fullName: function() {
+            return this.firstName + " " + this.lastName;
+        }
+    };
+    var person1 = {
+        firstName: "Bill",
+        lastName: "Gates",
+    };
+    /!*格式：函数名.apply(对象名，参数)*!/
+    //下面代码意思：person对象中的fulllName函数调用apply,所以this指向了person1中的对象
+    var a = person.fullName.apply(person1,[]);  // 将返回 "Bill Gates"
+    console.log(a);*/
+
+/*    var now = new Date();
+    now.getFullYear();
+    now.getMonth();
+    now.getDate();
+    now.getHours();
+    now.getMinutes();
+    now.getSeconds();
+    now.getDay();*/
+
+    var user = {
+        name: "罗依龙",
+        age: 21,
+        sex: "男"
+    }
+
+    //js对象转化成json字符串
+    var jsonUser =  JSON.stringify(user);//{"name":"罗依龙","age":21,"sex":"男"}
+
+    //json字符串转化成js对象
+    let jsonObj = JSON.parse(jsonUser);//{name: "罗依龙", age: 21, sex: "男"}
+
+/*    class Student{
+        constructor(name,age) {
+            this.name = name;
+            this.age = age;
+        }
+        hello(){
+            alert("hello");
+        }
+    }
+
+    var xiaoming = new Student("xiaoming",21);
+    var xiaohong = new Student("xiaohong",22);
+
+    class xiaoStudent extends Student{
+        constructor(name,age,grade) {
+            super(name,age);
+            this.grade = grade;
+        }
+        myGrade(){
+            alert("我是一名小学生");
+        }
+
+    }
+    var xiaoxuesheng = new xiaoStudent("小学生",21,65);*/
+/*    function wangzhan() {
+        location.assign("https://hyblog666.top");
+    }*/
+
+
+</script>
+
+</body>
+</html>
